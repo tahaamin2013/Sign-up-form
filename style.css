@@ -1,0 +1,270 @@
+body{
+    background-color: black;
+}
+.container{
+    border: solid transparent;
+    text-align: center;
+    width: 820px;
+    height: 560px;
+    margin-top: 40px;
+    margin-left: 250px; 
+    border-radius: 40px;
+    background:#FF84BE;
+    position: relative;
+    
+}
+.box-one{
+    margin-top: 60px;
+    width: 160px;
+    height: 500px;
+    box-shadow: 500px;
+    filter: blur(90px);
+    background-color: #ad34fec2;
+}
+
+.box-two{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 200px;
+    filter: blur(100px);
+    background-color: #FF002B;
+}
+
+.box-three{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    width: 100px;
+    height: 200px;
+    box-shadow: 500px;
+    filter: blur(100px);
+    background-color: #FF8A00;
+}
+
+.side{
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    border-radius: 40px;
+    margin-left: 500px;
+    width: 660px;
+    height: 566px;
+}
+
+.circle{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+}
+
+.text-one{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 110%;
+    font-family: 'Syne';
+    font-weight: 700;
+    letter-spacing: 0.17px;
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+.main{
+    width: 300px;
+    position: absolute;
+    left: 10px;
+    top: 125px;
+}
+
+.create{
+    color: #333;
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 230px;
+}
+
+
+fieldset{
+    border-radius: 9px;
+
+}
+.legend-one{
+    text-align: left;
+}
+.one{
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 10px;
+    height: 30px;
+}
+
+.two{
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 10px;
+    height: 30px;
+}
+
+.input-name{
+    margin-left: 20px;
+    width: 190px;
+    outline: none;
+    border: none;
+}
+
+.two{
+    position: absolute;
+    top: 80px;
+    left: 270px;
+}
+
+.three{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 459px;
+    height: 40px;
+}
+
+
+.input-names{
+    width: 470px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+i{
+    position: absolute;
+    text-align: center;
+}
+
+.email{
+    position: absolute;
+    top: 220px;
+}
+
+.key{
+    position: absolute;
+    top: 300px;
+}
+
+
+button{
+    margin-left: 87px;
+    color: #ffffff;
+    background-color: #FF2E51;
+    width: 500;
+    height: 50;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 11.97px;
+    margin-top: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+p{
+    position: absolute;
+    left: 93px;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+span{
+    color: #AD34FE;
+}
+
+.s{
+    text-align: center;
+    color: #656565;
+    margin-top: 60px;
+    margin-left: 85px;
+    font-family: 'inter';
+    border: solid black 1px;
+    width: 190px;
+    height: 40px;
+    border-radius: 9.21px;
+}
+
+.s p{
+    margin-left: 30px;
+}
+
+.dsd{
+    width: 40px;
+    float: left;
+    position: absolute;
+    left: 83px;
+    top:475px;
+}
+
+.ex{
+    position: absolute;
+    top: 410px;
+    left: 260px;
+    text-align: center;
+    color: #656565;
+    margin-top: 60px;
+    margin-left: 85px;
+    font-family: 'inter';
+    border: solid black 1px;
+    width: 190px;
+    height: 40px;
+    border-radius: 9.21px;
+}
+
+.p-one{
+    position: absolute;
+    left: 50px;
+}
+
+
+.Twitter{
+    width: 32px;
+    position: absolute;
+    top: 475px;
+    left: 360px;
+}
+
+
+fieldset:hover{
+    border-color: #AD34FE;
+    box-shadow: 4px 4px 8px #ff84bd33;
+}
+
+
+button:hover{
+    color: black;
+    background-color: #ffffff;
+    border: 6px solid #FF2E51 ;
+    box-shadow: 0px 2px 15px #ff84bd;
+}
+
+
+
+
+@media (max-width: 600px){
+    .sidee {
+      display: none;
+    }
+
+    .side {
+        position: absolute;
+        left: -494px;
+        
+
+    }
+    .container{
+        display: none;
+    }
+  }
