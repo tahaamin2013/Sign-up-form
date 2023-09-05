@@ -274,6 +274,7 @@ button:hover{
         position: absolute;
         left: -550px;
         top: 0px;
+        width: 500px;
         border-radius: 1px;
         height: 800px;
     }
@@ -290,11 +291,11 @@ button:hover{
 
     .Facebook{
         margin-top: 250px;
-        margin-left: 120px;
+        margin-left: 60px;
     }
     .Twitter{
         margin-top: 200px;
-        margin-left: 120px;
+        margin-left: 60px;
     }
     .two{
         margin-top: -289px;
@@ -304,18 +305,18 @@ button:hover{
 
     .button{
         position: absolute;
-        right: 150;
+        right: 90;
         top: 330px;
         width: 300px;
     }
 
     .alsre{
         margin-top: 155px;
-        margin-left: 126px;
+        margin-left: 70px;
     }
 
     .create{
-        margin-left: 220px;
+        margin-left: 150px;
     }
     .twso{
         right: 300px;
@@ -358,7 +359,7 @@ button:hover{
         margin-top: 1px;
     }
     .group{
-        margin-left: 200px;
+        margin-left: 135px;
     }
 
     .twso{
@@ -366,4 +367,5 @@ button:hover{
         left: 0px;
     }
     }
+  
   
